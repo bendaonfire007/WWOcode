@@ -20,7 +20,7 @@ namespace ConsoleApp1
         {
            
             _client = new DiscordSocketClient();
-            await _client.LoginAsync(TokenType.Bot, "NDcwMDIwOTg3ODY2NTc4OTY0.DmtB4Q.tnUtd8ijBbV3rvbMsXNd-dnww3A");
+            await _client.LoginAsync(TokenType.Bot, "some id");
 
             await _client.StartAsync();
 
